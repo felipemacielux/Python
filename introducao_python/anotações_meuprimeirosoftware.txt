@@ -1,0 +1,4 @@
+1° passo: antes de criar algum arquivo .py, criar um ambiente virtual para que fique restrito a mudanças sem impactar outros projetos
+2° passo: para ativar um ambiente virtual, devemos rodar o script ven\Scripts\Activate.ps1 (se for do powershell)
+OBS: se não rodar o script deve ser rodado um outro script como admin no powershell, como se fosse uma autorização
+3° passo: deve aparecer a seguinte linha no terminal assim que rodar o script: (venv) PS C:\Users\felipeverde....
