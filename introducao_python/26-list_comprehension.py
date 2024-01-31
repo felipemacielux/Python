@@ -25,3 +25,10 @@ print(b)
 c = [ [j for j in range(4,7) ] for i in range(0,3)]
 
 print(c)
+
+
+# Tem como colocar as listas junto com as condições
+
+z = [i for i in range (0,10) if i > 4] # Aqui vai retornar todos os valores maiores que 4
+
+print(z)
