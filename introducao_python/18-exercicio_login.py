@@ -12,6 +12,6 @@ while True:
 #Agora vamos validar se as duas váriaveis da linha 3 e 4 coincidem com as da linhas 9 e 10
     if usuario_login == usuario and senha_login == senha:
         print('Você foi logado no sistema!')
-        break
+        break  
     else:
         print('Usuário e senha inválido.')

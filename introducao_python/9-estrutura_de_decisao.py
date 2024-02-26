@@ -12,11 +12,6 @@ Elif senão se
     print('Olá')
 
 
-if 5 < 4 and 6 == 6:
-    print('Olá')
-    print("tudo bem?")
-
-print('Até mais!')
 
 
 
@@ -40,3 +35,5 @@ elif media >= 4:
 
 else:
     print('Reprovado')
+
+    

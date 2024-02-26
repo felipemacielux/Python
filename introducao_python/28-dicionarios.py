@@ -13,4 +13,4 @@ print(x)
 '''
 x = {'nomes': ['Felipe', 'Daniel', 'João', 'Douglas'], 'idades': [21, 22, 23, 24]}
 
-print(x['idades'])
+print(x['nomes'][0])

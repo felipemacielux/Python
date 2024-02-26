@@ -22,7 +22,7 @@ print(b)
 
 # Tem como adicionar listas dentro de lista com o list comprehension
 
-c = [ [j for j in range(4,7) ] for i in range(0,3)]
+c = [ [j for j in range(4,7) ] for i in range(0,3)] # Aqui é uma lista bidimensional, vai iterar primeiro de 0 até 2 (3 vezes) o valor 4, 5, 6
 
 print(c)
 
