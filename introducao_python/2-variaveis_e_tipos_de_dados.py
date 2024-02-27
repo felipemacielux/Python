@@ -20,4 +20,4 @@ print(type(idade))
 # e dar um print o valor será sobreescrito em relação ao primeiro
 
 #Conceito de variaveis como constante é feita com a letra maiscula, ex:
-#IDADE = 20 diferente de idade = 20 
+#IDADE = 20 diferente de idade = 20
