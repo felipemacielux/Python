@@ -12,3 +12,4 @@ conjunto_uniao = conjunto.difference(conjunto2)# conjunto.difference vai mostrar
 
 print(conjunto_uniao)
 
+#tem como adicionar dados como em listas, mas não possuem ordens

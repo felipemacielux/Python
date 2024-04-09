@@ -12,3 +12,21 @@ not não = se algum dado for verdadeiro ele transforma em falso e se tiver algum
 operador = False and False 
 
 print(operador)
+
+idade = 16
+maioridade = idade >= 18
+maioridade = not maioridade
+
+print(maioridade)
+
+
+a = 5
+b = 10
+x = True
+y = False
+
+print((x or y) and (a < b))
+print((x or y) and not (a < b))
+
+
+

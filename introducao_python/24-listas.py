@@ -21,7 +21,7 @@ nomes = ['Felipe', 'Daniel', 'Joao', 'Douglas']
 nomes [0] = "Felipe Verde"
 #nomes.append('Felipe') #Adiciona um elemento na lista no final
 print(nomes)
-'''
+
 #Tem como misturar lista com laços de repetição
 
 nomes = []
@@ -35,3 +35,6 @@ while True:
 
 print(nomes)
 
+'''
+
+ 

@@ -29,6 +29,6 @@ nomes = ['Felipe', 'Daniel', 'Joao', 'Douglas']
 
 nomes.sort(reverse=True) #reverse true serve para inverter a ordem
 #sorted serve para ordenar e retornar uma lista ordenada, ou seja, fica com uma lista original e uma lista ordenada
-
+#Aqui no caso ficará com uma lista que altera a propria lista no caso
 
 print(nomes)
