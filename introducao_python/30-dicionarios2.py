@@ -20,5 +20,5 @@ print(pessoa.values()) # vai mostrar os valores
 
 # se for feita a iteração
 
-for i in pessoa.items(): # se fpsse puxar sem items, vai mostrar apenas as chaves, agora com mostra os valores e as chaves
+for i in pessoa.items(): # se fosse puxar sem items, vai mostrar apenas as chaves, agora com mostra os valores e as chaves
     print(i)

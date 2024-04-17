@@ -67,6 +67,7 @@ print("Fim")
 
 '''
 '''
+
 n1 = int(input("Digite um número: ")) # está recebendo o número do usuário
 
 if n1 < 2: # verificando se o número digitado pelo usuário é menor que 2 (abrindo a condicional)

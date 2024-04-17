@@ -37,4 +37,16 @@ print(nomes)
 
 '''
 
- 
+ # Não é permitido utilizar métodos como reverse ou sort.
+
+"""lista = ["a", 5, {1}]
+lista_invertida = inverte_lista(lista)
+print(lista_invertida)
+[{1}, 5, "a"]"""
+
+lista = ['a', 5, {1}]
+
+for elemento in lista[::-1]: # o [::-1] é o operador de fatias, permite criar uma nova lista com elementos da lista original e fazer a ordem inversa
+    print(elemento)
+
+

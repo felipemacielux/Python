@@ -13,7 +13,7 @@ idades = [
 
 print(idades[0][2]) #primeiro passa a linha e depois a coluna
 
-'''
+
 
 idades = [
 
@@ -26,3 +26,11 @@ idades = [
 for i in range(0, len(idades)): # Aqui vai percorrer todas as linhas da lista
     for j in range(0, len(idades[i])): # ele vai iterar os elementos de cada linha
         print(idades[i][j]) 
+
+lista = [1, 3, 2, 5]
+
+for i in lista:
+    if i > 4:
+        print("O maior número da lista é: ", i)
+'''
+
