@@ -109,7 +109,7 @@ numeros = [int(x) for x in entrada.split()] # o metodo split() divide a string e
 
 # Chamando a função e imprimindo o resultado
 resultado = maior_num(numeros)
-print("O maior número é:", resultado[1], "na posição:", resultado[0])'''
+print("O maior número é:", resultado[1], "na posição:", resultado[0])
 
 
 
@@ -125,3 +125,33 @@ def maior_idade(pessoa): # definindo a função maior_idade que recebe como argu
 resultado = maior_idade(pessoa) # aqui deve ser chamado a função
 print(resultado) # aqui impresso o resultado dela, se é true ou false
     
+
+pessoa = {} # aqui já criamos um dicionário vazio, para que seja armazenado nele os dados de nome e idade
+
+nome = input('Nome: ') 
+idade = int(input('Idade: '))
+
+def maior_idade (pessoa): # definindo a mesma função que anteriormente
+    pessoa['nome'] = nome # identificando nome e idade que foi solicitado para o usuário
+    pessoa['idade'] = idade
+    if pessoa['idade'] >= 18: # validando entre true ou false
+        return True
+    else:
+        return False
+    
+
+print(maior_idade(pessoa)) # chamando a função para apresentar os resultados
+   
+    
+'''
+def check_element(lista, elemento): # definindo a função check_element
+    for item in lista:  # aqui vai percorrer cada item da lista
+        if item == elemento: # verifica se o elemento atual é igual ao elemento procurado
+            return True
+    return False
+
+# Exemplo de uso da função 
+lista_exemplo = [1, 2, 3, 4, 5]
+elemento = int(input("Digite um número para descobrir se está na lista: "))
+
+print(check_element(lista_exemplo, elemento))  # Saída: True

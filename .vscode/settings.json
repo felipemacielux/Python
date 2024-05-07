@@ -1,0 +1,7 @@
+{
+    "python.analysis.extraPaths": [
+        "./introducao_python/51-",
+        "./introducao_python/51-",
+        "./introducao_python/51-"
+    ]
+}

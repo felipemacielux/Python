@@ -5,7 +5,7 @@ nomes_ordenados = sorted(nomes, reverse=True)
 # print(sorted(nomes))
 
 
-print(nomes_ordenados)
+print(nomes_ordenados, nomes)
 
 '''
 # Como acessar todos os valores de forma dinâmica através do laço for
@@ -42,7 +42,7 @@ for i in idades:
 
 print(idades_pares)
 
-'''
+
 
 notas = [8, 10, 7, 6.5] #acumulando os números na lista
 
@@ -58,4 +58,4 @@ while i < qtd:  # enquantro true, faz o calculo abaixo
 print("O total das notas é:", total)
 
 media = total / qtd #pegar o total de todos os itens somados e dividir por 5
-print("A média é:", media)
+print("A média é:", media)'''
